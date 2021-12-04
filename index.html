@@ -12,7 +12,7 @@
 	style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"
 ></iframe>
 <script>
-	//video https://vinhkosd.github.io/virtualembedyoutube.github.io/index.html?id=%s&autoplay=1&controls=1&disablekb=1&fs=0&rel=0&showinfo=0&iv_load_policy=3&start=%s
+	//video https://vinhkosd.github.io/virtualembedyoutube.github.io/index.html?id=%s&autoplay=1&loop=1&controls=1&disablekb=1&fs=0&rel=0&showinfo=0&iv_load_policy=3&start=%s
 	const urlSearchParams = new URLSearchParams(window.location.search);
 	const params = Object.fromEntries(urlSearchParams.entries());
 	document.getElementById('vid').src = `https://www.youtube.com/embed/${params.id}?autoplay=1&controls=1&disablekb=1&fs=0&rel=0&showinfo=0&iv_load_policy=3&start=${params.start}`;
